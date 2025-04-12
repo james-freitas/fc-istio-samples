@@ -11,13 +11,13 @@ Whether you're new to Istio or looking to deepen your knowledge of traffic manag
 
 This repo showcases Istio concepts using sample microservices in a Kubernetes environment:
 
-- ✅ Traffic shifting and canary deployments  
-- 🔁 Request routing and retries  
-- 🔒 Mutual TLS (mTLS)  
-- 📊 Telemetry and observability with Prometheus and Grafana  
-- 🛑 Fault injection and resilience testing  
-- 🔄 Circuit breaking  
-- 🔐 Authorization policies  
+- ✅ Traffic shifting and canary deployments
+- 🔁 Request routing and retries
+- 🔒 Mutual TLS (mTLS)
+- 📊 Telemetry and observability with Prometheus and Grafana
+- 🛑 Fault injection and resilience testing
+- 🔄 Circuit breaking
+- 🔐 Authorization policies
 
 ---
 
@@ -44,7 +44,7 @@ Before getting started, make sure you have the following tools installed:
 - A Kubernetes cluster (local using [Minikube](https://minikube.sigs.k8s.io/docs/) or a remote cluster)
 - [Istio CLI](https://istio.io/latest/docs/setup/getting-started/#download)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/)
-- [Helm](https://helm.sh/docs/intro/install/) *(optional, for advanced configurations)*
+- [Helm](https://helm.sh/docs/intro/install/) _(optional, for advanced configurations)_
 
 ---
 
@@ -94,13 +94,6 @@ Here are a few Istio features you can test in this repo:
 
 4. **Observability**  
    Use built-in dashboards to monitor traffic, performance, and tracing.
-
----
-
-## 📸 Sample Architecture
-
-![Architecture](./docs/architecture-diagram.png)  
-*Example of services communicating through Istio sidecars.*
 
 ---
 
